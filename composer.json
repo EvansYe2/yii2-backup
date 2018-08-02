@@ -1,0 +1,21 @@
+{
+    "name": "evans/yii2-backup",
+    "description": "yii2 db backup and restore",
+    "keywords": ["yii", "dbbackup", "yii2-backup"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "EvansYe2",
+            "email": "evanscslg@sina.cn"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "evans\\backup\\": ""
+        }
+    }
+}
