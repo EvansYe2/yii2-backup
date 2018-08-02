@@ -13,7 +13,6 @@
     "require": {
         "yiisoft/yii2": "*"
     },
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "evans\\backup\\": ""
