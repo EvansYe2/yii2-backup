@@ -11,6 +11,7 @@ namespace evans\backup;
 
 class Module extends \yii\base\Module
 {
+    public $defaultRoute = 'export';
     public $controllerNamespace = 'evans\backup\controllers';
     public function init()
     {
